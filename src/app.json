@@ -1,0 +1,39 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/me/main",
+    "pages/comments/main",
+    "pages/books/main",
+    "pages/allbook/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "selectedColor": "#EA5149",
+    "list":[
+      {
+        "text": "图书",
+        "pagePath":"pages/books/main",
+        "iconPath": "static/img/book.png",
+        "selectedIconPath": "static/img/book-active.png"
+      },
+      {
+        "text": "评论",
+        "pagePath":"pages/comments/main",
+        "iconPath": "static/img/todo.png",
+        "selectedIconPath": "static/img/todo-active.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath":"pages/me/main",
+        "iconPath": "static/img/me.png",
+        "selectedIconPath": "static/img/me-active.png"
+      }
+    ]
+  }
+
+}
